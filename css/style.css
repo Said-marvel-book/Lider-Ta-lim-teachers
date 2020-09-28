@@ -31,12 +31,12 @@
 .header{
     width: 101%;
     height: 100px;
-    background-color: #024d0f;
+    background-color: #0097d3;
     margin: 0px;
 }
 .menubtn{
     background-color: rgb(17, 15, 36);
-    color:#01991a;
+    color: #00b7ff;
     width: 12%;
     height: 70%;
     margin-right: 15px;
@@ -54,8 +54,7 @@
     margin-top: 5%;
     width: 101%;
     height: 20px;
-    background-color: rgb(138, 38, 138);
-
+    background-color: #0097d3;
 }
 .fnf{
     margin-left: 35%;
@@ -82,30 +81,29 @@ html{
     margin-right: 5px;
 }
 .strr{
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
     font-family: Comic Sans MS;
     background-color: rgb(75, 232, 253);
     color: rgba(0, 26, 255, 0.863);
-    font-size: 65px;
+    font-size: 45px;
 }
 .strl{
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
     font-family: Comic Sans MS;
     background-color: rgb(75, 232, 253);
     color: rgba(0, 26, 255, 0.863); 
-    font-size: 65px;
+    font-size: 45px;
 }
 .num{
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
     font-family: Comic Sans MS;
     background-color: rgb(75, 232, 253);
     color: rgba(0, 26, 255, 0.863);
     border-radius: 50%;
     transition: 5s;
-
 }
 .num:active{
     width: 1000px;

@@ -4,6 +4,7 @@ var imgslide = document.querySelector(".slide");
 var nav = document.querySelector(".nav");
 var tup = document.querySelector(".tup");
 var photos =[
+    {size:[450, 500], text:"Наша Ольга Юрьевна. Учительница по истории вошедшая в историю!", transform: "rotate(0deg)"},
     {size:[940, 940], text:"Наша Ольга Юрьевна. Учительница по истории вошедшая в историю!", transform: "rotate(0deg)"},
 ];
 var strr = document.querySelector(".strr");
