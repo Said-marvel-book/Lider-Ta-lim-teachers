@@ -7,8 +7,7 @@
     margin-left: 100px;
 }
 .logo{
-    width: 100px;
-    height: 100%;
+    width: 90px;
     float: left;
     margin: 5px;
     transition: 1s;
@@ -32,12 +31,12 @@
 .header{
     width: 101%;
     height: 100px;
-    background-color: green;
+    background-color: #024d0f;
     margin: 0px;
 }
 .menubtn{
-    background-color: rgb(170, 96, 255);
-    color:rgb(0, 0, 0);
+    background-color: rgb(17, 15, 36);
+    color:#01991a;
     width: 12%;
     height: 70%;
     margin-right: 15px;
