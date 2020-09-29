@@ -4,11 +4,18 @@ var butvoti = document.getElementsByClassName("voti");
 var ri = document.getElementsByTagName("i");
 var tf = document.getElementsByClassName("tf");
 var b =  document.querySelectorAll("b");
+var li =  document.querySelectorAll("#liuch");
+for(var i = 0; i < tf.length; i++){
+    tf[i].addEventListener("click", onpages);
+}
 for(var i = 0; i < tf.length; i++){
     tf[i].addEventListener("click", onpages);
 }
 for(var i = 0; i < ri.length; i++){
     ri[i].addEventListener("click", onpages);
+}
+for(var i = 0; i < li.length; i++){
+    li[i].addEventListener("click", onpages);
 }
 for(var i = 0; i < menubtn.length; i++ ){
     menubtn[i].addEventListener("click", onpages);
