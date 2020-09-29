@@ -26,13 +26,15 @@ var photos =[
     {size:[250, 450], text:"Григорий Владимирович в шахматах ас", sled: "В шахматы научит играть всех вас.", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Наши любимые учителя!", sled: "", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Учебный год закончили.", sled: "Теперь можно и в отпуск!", transform: "rotate(0deg)"},
+    {size:[550, 450], text:"Учебный год закончили.", sled: "Теперь можно и в отпуск!", transform: "rotate(0deg)"},
+    {size:[350, 450], text:"Учебный год закончили.", sled: "Теперь можно и в отпуск!", transform: "rotate(0deg)"},
 ];
 var strr = document.querySelector(".strr");
 strr.addEventListener("click", next);
 var strl = document.querySelector(".strl");
 strl.addEventListener("click", prev);
 function next(){
-    if(counter == 20){
+    if(counter == 22){
         imgslide.setAttribute("src", "img/0.jpg");
         imgslide.style.width = photos[0].size[0] + "px";
         imgslide.style.height = photos[0].size[1] + "px";
@@ -59,7 +61,7 @@ function next(){
 }
 function prev(){
     if(counter == 0){
-        counter = 20;
+        counter = 22;
         imgslide.setAttribute("src", "img/" + counter +".jpg");
         imgslide.style.width = photos[counter].size[0] + "px";
         imgslide.style.height = photos[counter].size[1] + "px";
