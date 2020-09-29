@@ -38,8 +38,8 @@ function voti(){
     var loginText = login.value;
     var password = document.getElementById("passwordBox");
     var passText = password.value;
-    if(loginText == "Leyla-Almasovna" && passText == "LA_Premium"){
-        window.location.href = "main.html";
+    if(loginText == "aa" && passText == "lidermath" || loginText == "ga" && passText == "liderlib" || loginText == "gg" && passText == "liderphy" || loginText == "gv" && passText == "liderchess" || loginText == "yor" && passText == "lidermus" || loginText == "ka" && passText == "lidermath" || loginText == "lg" && passText == "liderart" || loginText == "ln" && passText == "lidermed" || loginText == "ms" && passText == "lidermba" || loginText == "me" && passText == "lideradmin" || loginText == "md" && passText == "lidereng" || loginText == "ml" && pas0sText == "lidereng" || loginText == "ma" && passText == "lideruzb" || loginText == "nm" && passText == "liderbio" || loginText == "ov" && passText == "liderrus" || loginText == "oyu" && passText == "liderhis" || loginText == "fa" && passText == "liderIT" || loginText == "zav" && passText == "lideradmin" || loginText == "dir" && passText == "liderdir" || loginText == "fn" && passText == "lidermath" || loginText == "ef" && passText == "lidergeogr"){
+        window.location.href = loginText + ".html";
     }
     else{
         alert("Если вы не знаете пароля не пробуйте!")

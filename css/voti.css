@@ -1,0 +1,38 @@
+input{
+    margin-bottom: 10px;
+    width: 400px;
+    height: 100px;
+    color: #3800bb;
+    place-self: red;
+    background-color: rgb(0, 148, 0);
+    font-family: Comic Sans MS;
+    font-size: 50px;
+    margin-bottom: 55px;
+}  
+input[type="password"]::-moz-placeholder {
+    color: #1c00b9; /* Цвет подсказывающего текста */
+}
+input[type="password"]::-webkit-input-placeholder { color: #1c00b9; }
+input[type="password"]:-ms-input-placeholder { color: #1c00b9; }
+input[type="password"]::-ms-input-placeholder { color: #1c00b9; }
+input[type="password"]::placeholder { color: #1c00b9; }       
+input[type="text"]::-moz-placeholder {
+    color: #1c00b9; /* Цвет подсказывающего текста */
+}
+input[type="text"]::-webkit-input-placeholder { color: #1c00b9; }
+input[type="text"]:-ms-input-placeholder { color: #1c00b9; }
+input[type="text"]::-ms-input-placeholder { color: #1c00b9; }
+input[type="text"]::placeholder { color: #1c00b9; }
+button{
+    width: 175px;
+    height: 65px;
+    background-color: rgb(0, 250, 208);
+    color: rgb(0, 56, 141);
+    font-family: Comic Sans Ms;
+    font-size: 55px;
+}
+html{
+    background-size: 100%;
+}
+/* 7.jpg, 8a0f7834d06badcd0e978431c5a848b8.jpg, back.jpg, нет */
+/*  3.jpg, 8a0f7834d06badcd0e978431c5a848b8.jpg, 13.jpg, 76.jpg  - да*/
