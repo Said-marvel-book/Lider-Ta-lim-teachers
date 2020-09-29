@@ -115,6 +115,10 @@ html{
     font-size: 30px;
     color: rgb(130, 52, 255);
 }
+.sled{
+    font-size: 30px;
+    color: rgb(130, 52, 255);
+}
 li{
     cursor: pointer;
     color: rgb(77, 124, 253);
