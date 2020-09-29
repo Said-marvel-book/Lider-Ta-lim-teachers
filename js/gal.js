@@ -13,16 +13,17 @@ var photos =[
     {size:[450, 450], text:"Что-то болит? Иди к Людмиле Николаевне. Голова, нога, рука, живот и всё остальное!", sled: " ", transform: "rotate(0deg)"},
     {size:[450, 500], text:"Ольга Владимировна точно знает, что кофе который у неё в руке мужского рода", sled: " ", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Феруза Насыровна. Пифагор услышал и в гробу перевернулся", sled: " ", transform: "rotate(0deg)"},
-    {size:[330, 450], text:"Феруза Ассадулаевна ", sled: " ", transform: "rotate(0deg)"},
+    {size:[330, 450], text:"Феруза Ассадулаевна любимый завуч наш.", sled: " ", transform: "rotate(0deg)"},
     {size:[310, 500], text:"Камила Адхамовна самая... Фотография сама за себя говорит", sled: " ", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Наша любимая Малика Пулатовна. Вездесущий завуч.", sled: " ", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Максим Евгеньевич. Неостановимая сила. ", sled: " ", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Феруза Наримановна. Бизнес-леди, бабушка, директор школы и отличный человек. Ни для кого не секрет она супергерой.", sled: " ", transform: "rotate(0deg)"},
     {size:[380, 470], text:"Do you speak English? Yes, we are. All thanks to Miss Linara", sled: "", transform: "rotate(0deg)"},
-    {size:[330, 450], text:"", sled: " ", transform: "rotate(0deg)"},
-    {size:[600, 450], text:"", sled: " ", transform: "rotate(0deg)"},
-    {size:[450, 450], text:"", sled: " ", transform: "rotate(0deg)"},
-    {size:[350, 450], text:"", sled: " ", transform: "rotate(0deg)"},
+    {size:[330, 450], text:"Гаянэ Григорьевна с молекулами на ты", sled: "Знает молекулярный состав любой кислоты", transform: "rotate(0deg)"},
+    {size:[600, 450], text:"Галина Ариповна. Библиотекарь наш. Книгу подскажет", sled: "И фильм покажет.", transform: "rotate(0deg)"},
+    {size:[450, 450], text:"Феруза Наримановна супер директор она", sled: "Мудра, красива и умна", transform: "rotate(0deg)"},
+    {size:[350, 450], text:"Фархад Абдусаматович как только сядет за компьютер,", sled: "тут же окна замелькают.", transform: "rotate(0deg)"},
+    {size:[250, 450], text:"Григорий Владимирович в шахматах ас", sled: "В шахматы научит играть всех вас.", transform: "rotate(0deg)"},
 ];
 var strr = document.querySelector(".strr");
 strr.addEventListener("click", next);
@@ -56,14 +57,14 @@ function next(){
 }
 function prev(){
     if(counter == 0){
-        counter = 51;
+        counter = 18;
         imgslide.setAttribute("src", "img/" + counter +".jpg");
         imgslide.style.width = photos[counter].size[0] + "px";
         imgslide.style.height = photos[counter].size[1] + "px";
-        tup.textContent = photos[51].text;
-        sle.textContent = photos[51].sled;
-        tup.style.color = photos[51].color;
-        imgslide.style.transform = photos[51].transform;
+        tup.textContent = photos[counter].text;
+        sle.textContent = photos[counter].sled;
+        tup.style.color = photos[counter].color;
+        imgslide.style.transform = photos[counter].transform;
         pods.textContent = counter+1;
         console.log(counter);
         imgslide.addEventListener("click", bolshe);
