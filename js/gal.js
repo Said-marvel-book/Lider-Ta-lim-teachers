@@ -9,7 +9,7 @@ var photos =[
     {size:[450, 450], text:"Ёдгора Рахматуллаевна. И Моцарт позавидовал. ", sled: "", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Ustozimiz muxlislar olomonidan tabriklar bilan kengash fonida", sled: " ", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Эксперт. И не в одной области.", sled: " ", transform: "rotate(0deg)"},
-    {size:[250, 450], text:"Наргиза Мирзахашимовна молекулам всем, нос утрёт", sled: " Любой кто урок пропустит с ума сойдёт.", transform: "rotate(0deg)"},
+    {size:[250, 450], text:"Наргиза Мирзахашимовна молекулам всем, нос утрёт", sled: "Любой кто урок пропустит с ума сойдёт.", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Что-то болит? Иди к Людмиле Николаевне. Голова, нога, рука, живот и всё остальное!", sled: " ", transform: "rotate(0deg)"},
     {size:[450, 500], text:"Ольга Владимировна точно знает, что кофе который у неё в руке мужского рода", sled: " ", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Феруза Насыровна. Пифагор услышал и в гробу перевернулся", sled: " ", transform: "rotate(0deg)"},
@@ -26,15 +26,16 @@ var photos =[
     {size:[250, 450], text:"Григорий Владимирович в шахматах ас", sled: "В шахматы научит играть всех вас.", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Наши любимые учителя!", sled: "", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Учебный год закончили.", sled: "Теперь можно и в отпуск!", transform: "rotate(0deg)"},
-    {size:[550, 450], text:"Учебный год закончили.", sled: "Теперь можно и в отпуск!", transform: "rotate(0deg)"},
-    {size:[350, 450], text:"Учебный год закончили.", sled: "Теперь можно и в отпуск!", transform: "rotate(0deg)"},
+    {size:[550, 450], text:"Miss Damira with Miss Pony", sled: "", transform: "rotate(0deg)"},
+    {size:[350, 450], text:"", sled: "", transform: "rotate(0deg)"},
+    {size:[450, 450], text:"", sled: "", transform: "rotate(0deg)"},
 ];
 var strr = document.querySelector(".strr");
 strr.addEventListener("click", next);
 var strl = document.querySelector(".strl");
 strl.addEventListener("click", prev);
 function next(){
-    if(counter == 22){
+    if(counter == 23){
         imgslide.setAttribute("src", "img/0.jpg");
         imgslide.style.width = photos[0].size[0] + "px";
         imgslide.style.height = photos[0].size[1] + "px";
@@ -61,7 +62,7 @@ function next(){
 }
 function prev(){
     if(counter == 0){
-        counter = 22;
+        counter = 23;
         imgslide.setAttribute("src", "img/" + counter +".jpg");
         imgslide.style.width = photos[counter].size[0] + "px";
         imgslide.style.height = photos[counter].size[1] + "px";
