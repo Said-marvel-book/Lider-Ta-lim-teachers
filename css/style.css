@@ -19,6 +19,7 @@
 }
 .nach{
     margin: 15px;
+    font-size: 25px;
 }
 .zag{
     font-size: 45px;
@@ -51,7 +52,7 @@
     height: 100%;
 }
 .footer{
-    margin-top: 5%;
+    margin-top: 1%;
     width: 101%;
     height: 20px;
     background-color: #0097d3;
