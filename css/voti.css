@@ -3,9 +3,9 @@ input{
     width: 400px;
     height: 100px;
     color: #3800bb;
-    place-self: red;
     background-color: rgb(0, 148, 0);
     font-family: Comic Sans MS;
+    src: url("https://www.fonts-online.ru/download/font/2006");
     font-size: 50px;
     margin-bottom: 55px;
 }  
