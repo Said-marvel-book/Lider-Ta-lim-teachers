@@ -27,15 +27,18 @@ var photos =[
     {size:[450, 450], text:"Наши любимые учителя!", sled: "", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Учебный год закончили.", sled: "Теперь можно и в отпуск!", transform: "rotate(0deg)"},
     {size:[550, 450], text:"Miss Damira with Miss Pony", sled: "", transform: "rotate(0deg)"},
-    {size:[350, 450], text:"", sled: "", transform: "rotate(0deg)"},
-    {size:[450, 450], text:"", sled: "", transform: "rotate(0deg)"},
+    {size:[350, 450], text:"Эльнора Фархадовна", sled: "", transform: "rotate(0deg)"},
+    {size:[450, 450], text:"Зульфия Равшановна", sled: "", transform: "rotate(0deg)"},
+    {size:[450, 330], text:"Алишер Акрамович", sled: "", transform: "rotate(0deg)"},
+    {size:[330, 450], text:"Людмила Григорьена", sled: "", transform: "rotate(0deg)"},
+
 ];
 var strr = document.querySelector(".strr");
 strr.addEventListener("click", next);
 var strl = document.querySelector(".strl");
 strl.addEventListener("click", prev);
 function next(){
-    if(counter == 23){
+    if(counter == 25){
         imgslide.setAttribute("src", "img/0.jpg");
         imgslide.style.width = photos[0].size[0] + "px";
         imgslide.style.height = photos[0].size[1] + "px";
@@ -62,7 +65,7 @@ function next(){
 }
 function prev(){
     if(counter == 0){
-        counter = 23;
+        counter = 25;
         imgslide.setAttribute("src", "img/" + counter +".jpg");
         imgslide.style.width = photos[counter].size[0] + "px";
         imgslide.style.height = photos[counter].size[1] + "px";

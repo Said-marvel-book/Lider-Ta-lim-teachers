@@ -1,12 +1,11 @@
 input{
     margin-bottom: 10px;
-    width: 400px;
-    height: 100px;
-    color: #3800bb;
-    background-color: rgb(0, 148, 0);
-    font-family: Earths Mightiest Bold Cyrillic;
-    src: url("https://www.fonts-online.ru/download/font/19957");
-    font-size: 50px;
+    width: 250px;
+    height: 50px;
+    color: #00ffbf;
+    background-color: rgb(0, 179, 24);
+    font-family: Comic Sans Ms  ;
+    font-size: 20px;
     margin-bottom: 55px;
 }  
 input[type="password"]::-moz-placeholder {
@@ -19,17 +18,17 @@ input[type="password"]::placeholder { color: #1c00b9; }
 input[type="text"]::-moz-placeholder {
     color: #1c00b9; /* Цвет подсказывающего текста */
 }
-input[type="text"]::-webkit-input-placeholder { color: #1c00b9; }
-input[type="text"]:-ms-input-placeholder { color: #1c00b9; }
-input[type="text"]::-ms-input-placeholder { color: #1c00b9; }
-input[type="text"]::placeholder { color: #1c00b9; }
+input[type="text"]::-webkit-input-placeholder { color: #00ccff; }
+input[type="text"]:-ms-input-placeholder { color: #00ccff; }
+input[type="text"]::-ms-input-placeholder { color: #00ccff; }
+input[type="text"]::placeholder { color: #00ccff; }
 button{
-    width: 175px;
-    height: 65px;
+    width: 90px;
+    height: 40px;
     background-color: rgb(0, 250, 208);
     color: rgb(0, 56, 141);
     font-family: Comic Sans Ms;
-    font-size: 55px;
+    font-size: 20px;
 }
 html{
     background-size: 100%;
