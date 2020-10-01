@@ -33,7 +33,7 @@ var photos =[
     {size:[330, 450], text:"Людмила Григорьена", sled: "", transform: "rotate(0deg)"},
     {size:[330, 450], text:"На борту", sled: "", transform: "rotate(0deg)"},
     {size:[330, 450], text:"Три мушкетёра", sled: "", transform: "rotate(0deg)"},
-    {size:[330, 450], text:"Наш любимый классный руководитель. ", sled: "", transform: "rotate(0deg)"},
+    {size:[450, 450], text:"Наш любимый классный руководитель. ", sled: "", transform: "rotate(0deg)"},
 ];
 var strr = document.querySelector(".strr");
 strr.addEventListener("click", next);
