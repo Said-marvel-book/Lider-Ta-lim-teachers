@@ -13,7 +13,7 @@ var photos =[
     {size:[450, 450], text:"Что-то болит? Иди к Людмиле Николаевне. Голова, нога, рука, живот и всё остальное!", sled: " ", transform: "rotate(0deg)"},
     {size:[450, 500], text:"Ольга Владимировна точно знает, что кофе который у неё в руке мужского рода", sled: " ", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Феруза Насыровна. Пифагор услышал и в гробу перевернулся", sled: " ", transform: "rotate(0deg)"},
-    {size:[330, 450], text:"Феруза Ассадулаевна любимый завуч наш.", sled: " ", transform: "rotate(0deg)"},
+    {size:[330, 450], text:"Феруза Ассадулаевна преподаватель MBA.", sled: " ", transform: "rotate(0deg)"},
     {size:[310, 500], text:"Камила Адхамовна самая... Фотография сама за себя говорит", sled: " ", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Наша любимая Малика Пулатовна. Вездесущий завуч.", sled: " ", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Максим Евгеньевич. Неостановимая сила. ", sled: " ", transform: "rotate(0deg)"},
@@ -24,21 +24,23 @@ var photos =[
     {size:[450, 450], text:"Феруза Наримановна супер директор она", sled: "Мудра, красива и умна", transform: "rotate(0deg)"},
     {size:[350, 450], text:"Фархад Абдусаматович как только сядет за компьютер,", sled: "тут же окна замелькают.", transform: "rotate(0deg)"},
     {size:[250, 450], text:"Григорий Владимирович в шахматах ас", sled: "В шахматы научит играть всех вас.", transform: "rotate(0deg)"},
-    {size:[450, 450], text:"Наши любимые учителя!", sled: "", transform: "rotate(0deg)"},
+    {size:[450, 330], text:"Наши любимые учителя!", sled: "", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Учебный год закончили.", sled: "Теперь можно и в отпуск!", transform: "rotate(0deg)"},
     {size:[550, 450], text:"Miss Damira with Miss Pony", sled: "", transform: "rotate(0deg)"},
     {size:[350, 450], text:"Эльнора Фархадовна", sled: "", transform: "rotate(0deg)"},
     {size:[450, 450], text:"Зульфия Равшановна", sled: "", transform: "rotate(0deg)"},
     {size:[450, 330], text:"Алишер Акрамович", sled: "", transform: "rotate(0deg)"},
     {size:[330, 450], text:"Людмила Григорьена", sled: "", transform: "rotate(0deg)"},
-
+    {size:[330, 450], text:"На борту", sled: "", transform: "rotate(0deg)"},
+    {size:[330, 450], text:"Три мушкетёра", sled: "", transform: "rotate(0deg)"},
+    {size:[330, 450], text:"Наш любимый классный руководитель. ", sled: "", transform: "rotate(0deg)"},
 ];
 var strr = document.querySelector(".strr");
 strr.addEventListener("click", next);
 var strl = document.querySelector(".strl");
 strl.addEventListener("click", prev);
 function next(){
-    if(counter == 25){
+    if(counter == 28){
         imgslide.setAttribute("src", "img/0.jpg");
         imgslide.style.width = photos[0].size[0] + "px";
         imgslide.style.height = photos[0].size[1] + "px";
@@ -65,7 +67,7 @@ function next(){
 }
 function prev(){
     if(counter == 0){
-        counter = 25;
+        counter = 28;
         imgslide.setAttribute("src", "img/" + counter +".jpg");
         imgslide.style.width = photos[counter].size[0] + "px";
         imgslide.style.height = photos[counter].size[1] + "px";
